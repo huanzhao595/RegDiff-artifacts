@@ -29,31 +29,31 @@ openai
 2. Search for privacy policy links in the APK.  
    Run:
    ```text
-   readapkcode_pp.ipynb
+   framwork\readapkcode_pp.ipynb
    ```
 
 3. Process the privacy policy links.  
    Run:
    ```text
-   ppjosn_deplicated.ipynb
+   framwork\ppjosn_deplicated.ipynb
    ```
 
 4. Use `utool` to generate the APK version summary file.  
    Run:
    ```text
-   utool.ipynb
+   framwork\utool.ipynb
    ```
 
 5. Use OpenAI to identify the final privacy policy link from the candidates.  
    Run:
    ```text
-   openai_pp_url.ipynb
+   framwork\openai_pp_url.ipynb
    ```
 
 6. Download the privacy policy from the Wayback Machine.  
    Run:
    ```text
-   waybachmachine_find_pp_url_download_md.ipynb
+   framwork\waybachmachine_find_pp_url_download_md.ipynb
    ```
 
 7. Download the privacy policy from the APK itself.  
@@ -71,7 +71,7 @@ openai
 9. Process the downloaded results.  
    Run:
    ```text
-   utool.ipynb
+   framwork\utool.ipynb
    ```
 
 10. Download privacy policies from two sources and process the results.  
@@ -98,7 +98,7 @@ openai
 3. Generate region information.  
    Run:
    ```text
-   utool.ipynb
+   framwork\utool.ipynb
    ```
 
 4. Construct the privacy policy matrix.  
